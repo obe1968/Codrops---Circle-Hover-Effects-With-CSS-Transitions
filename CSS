@@ -1,0 +1,122 @@
+/* Begin Codrops rounded hover */
+  /* General CSS */
+.et_pb_section .ch-grid { margin: 20px 0 0 0; padding: 0; list-style: none; display: block; text-align: center; width: 100%;}
+.et_pb_row .ch-grid:after,.et_pb_row .ch-item:before { content: '';    display: table;}
+.et_pb_row .ch-grid:after { clear: both;}
+.et_pb_row .ch-grid li { width: 220px; height: 220px; display: inline-block; margin: 20px;}
+  /* End General CSS */
+  /* Begin Demo 1 */
+.ch-item { width: 100%; height: 100%; border-radius: 50%; position: relative; cursor: default; box-shadow:   inset 0 0 0 16px rgba(255,255,255,0.6),  0 1px 2px rgba(0,0,0,0.1);   -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+.ch-img-1 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/1.jpg);}
+.ch-img-2 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/2-1.jpg);}
+.ch-img-3 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/3-1.jpg);}
+.ch-info { position: absolute; background: rgba(63,147,147, 0.8); width: inherit; height: inherit; border-radius: 50%; opacity: 0;  -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;  -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); -ms-transform: scale(0); transform: scale(0);  -webkit-backface-visibility: hidden;
+}
+.ch-info h3 { color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 22px; margin: 0 30px; padding: 45px 0 0 0; height: 140px; font-family: 'Open Sans', Arial, sans-serif; text-shadow:   0 0 1px #fff,   0 1px 2px rgba(0,0,0,0.3);}
+.ch-info p { color: #fff; padding: 10px 5px; font-style: italic; margin: 0 30px; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.5); opacity: 0; -webkit-transition: all 1s ease-in-out 0.4s; -moz-transition: all 1s ease-in-out 0.4s; -o-transition: all 1s ease-in-out 0.4s; -ms-transition: all 1s ease-in-out 0.4s; transition: all 1s ease-in-out 0.4s;}
+.ch-info p a { display: block; color: #fff; color: rgba(255,255,255,0.7); font-style: normal; font-weight: 700; text-transform: uppercase; font-size: 9px; letter-spacing: 1px; padding-top: 4px; font-family: 'Open Sans', Arial, sans-serif;}
+.ch-info p a:hover { color: #fff222; color: rgba(255,242,34, 0.8);}
+.ch-item:hover { box-shadow:   inset 0 0 0 1px rgba(255,255,255,0.1),  0 1px 2px rgba(0,0,0,0.1);}.ch-item:hover .ch-info { -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); -ms-transform: scale(1); transform: scale(1); opacity: 1;}
+.ch-item:hover .ch-info p { opacity: 1;}
+  /* End Demo 1 */
+  /* Begin Demo 2 */
+.ch-item { width: 100%; height: 100%; border-radius: 50%; position: relative; cursor: default; box-shadow:   inset 0 0 0 0 rgba(200,95,66, 0.4),  inset 0 0 0 16px rgba(255,255,255,0.6),  0 1px 2px rgba(0,0,0,0.1);   -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+.ch-img-1 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/4-1.jpg);}
+.ch-img-2 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/5-1.jpg);}
+.ch-img-3 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/6-1.jpg);}
+.ch-info { position: absolute; width: 100%; height: 100%; border-radius: 50%; opacity: 0;  -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;  -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); -ms-transform: scale(0); transform: scale(0);  -webkit-backface-visibility: hidden; /*for a smooth font */
+}
+.ch-info h3 { color: #fff; text-transform: uppercase; position: relative; letter-spacing: 2px; font-size: 22px; margin: 0 30px; padding: 65px 0 0 0; height: 110px; font-family: 'Open Sans', Arial, sans-serif; text-shadow:   0 0 1px #fff,   0 1px 2px rgba(0,0,0,0.3);}
+.ch-info p { color: #fff; padding: 10px 5px; font-style: italic; margin: 0 30px; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.5);}
+.ch-info p a { display: block; color: #fff; color: rgba(255,255,255,0.7); font-style: normal; font-weight: 700; text-transform: uppercase; font-size: 9px; letter-spacing: 1px; padding-top: 4px; font-family: 'Open Sans', Arial, sans-serif;}
+.ch-info p a:hover { color: #fff222; color: rgba(255,242,34, 0.8);}
+.ch-item:hover { box-shadow:   inset 0 0 0 110px rgba(200,95,66, 0.4),  inset 0 0 0 16px rgba(255,255,255,0.8),  0 1px 2px rgba(0,0,0,0.1);}
+.ch-item:hover .ch-info { opacity: 1;  -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }  /*End Demo 2 */
+  /* Begin Demo 3 */
+.ch-item { width: 100%; height: 100%; border-radius: 50%; position: relative; cursor: default; box-shadow: 0 1px 3px rgba(0,0,0,0.2);}
+.ch-thumb { width: 100%; height: 100%; border-radius: 50%; overflow: hidden; position: absolute; box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5);  -webkit-transform-origin: 95% 40%; -moz-transform-origin: 95% 40%; -o-transform-origin: 95% 40%; -ms-transform-origin: 95% 40%; transform-origin: 95% 40%;  -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+.ch-thumb:after { content: ''; width: 8px; height: 8px; position: absolute; border-radius: 50%; top: 40%; left: 95%; margin: -4px 0 0 -4px; background: rgb(14,14,14); background: -moz-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%); background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(14,14,14,1)), color-stop(100%,rgba(125,126,125,1))); background: -webkit-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); background: -o-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); background: -ms-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); background: radial-gradient(ellipse at center, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); box-shadow: 0 0 1px rgba(255,255,255,0.9);}
+.ch-img-1 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/7-1.jpg); z-index: 12;}
+.ch-img-2 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/8-1.jpg); z-index: 11;}
+.ch-img-3 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/9-1.jpg); z-index: 10;}
+.ch-info { position: absolute; width: 100%; height: 100%; border-radius: 50%; overflow: hidden; background: #c9512e url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/noise.png); box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);}
+.ch-info h3 { color: #fff; text-transform: uppercase; position: relative; letter-spacing: 2px; font-size: 18px; margin: 0 60px; padding: 22px 0 0 0; height: 85px; font-family: 'Open Sans', Arial, sans-serif; text-shadow:   0 0 1px #fff,   0 1px 2px rgba(0,0,0,0.3);}
+.ch-info p { color: #fff; padding: 10px 5px; font-style: italic; margin: 0 30px; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.5);}
+.ch-info p a { display: block; color: #333; width: 80px; height: 80px; background: rgba(255,255,255,0.3); border-radius: 50%; color: #fff; font-style: normal; font-weight: 700; text-transform: uppercase; font-size: 9px; letter-spacing: 1px; padding-top: 24px; margin: 7px auto 0; font-family: 'Open Sans', Arial, sans-serif; opacity: 0;  -webkit-transition:   -webkit-transform 0.3s ease-in-out 0.2s,  opacity 0.3s ease-in-out 0.2s,  background 0.2s linear 0s; -moz-transition:   -moz-transform 0.3s ease-in-out 0.2s,  opacity 0.3s ease-in-out 0.2s,  background 0.2s linear 0s; -o-transition:   -o-transform 0.3s ease-in-out 0.2s,  opacity 0.3s ease-in-out 0.2s,  background 0.2s linear 0s; -ms-transition:   -ms-transform 0.3s ease-in-out 0.2s,  opacity 0.3s ease-in-out 0.2s,  background 0.2s linear 0s; transition:   transform 0.3s ease-in-out 0.2s,  opacity 0.3s ease-in-out 0.2s,  background 0.2s linear 0s;   -webkit-transform: translateX(60px) rotate(90deg); -moz-transform: translateX(60px) rotate(90deg); -o-transform: translateX(60px) rotate(90deg); -ms-transform: translateX(60px) rotate(90deg); transform: translateX(60px) rotate(90deg);   -webkit-backface-visibility: hidden;}
+.ch-info p a:hover { background: rgba(255,255,255,0.5);}.ch-item:hover .ch-thumb { box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5), 0 1px 3px rgba(0,0,0,0.2); -webkit-transform: rotate(-110deg); -moz-transform: rotate(-110deg); -o-transform: rotate(-110deg); -ms-transform: rotate(-110deg); transform: rotate(-110deg);}.ch-item:hover .ch-info p a{ opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); -moz-transform: translateX(0px) rotate(0deg); -o-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); transform: translateX(0px) rotate(0deg);}
+  /*End Demo 3 */
+  /* Begin Demo 4 */
+.ch-item { width: 100%; height: 100%; border-radius: 50%; position: relative; box-shadow: 0 1px 2px rgba(0,0,0,0.1); cursor: default;}
+.ch-info-wrap{ position: absolute; width: 180px; height: 180px; border-radius: 50%;
+ -webkit-perspective: 800px; -moz-perspective: 800px; -o-perspective: 800px; -ms-perspective: 800px; perspective: 800px;
+ -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;
+ top: 20px; left: 20px; background: #f9f9f9 url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/bg.jpg); box-shadow:   0 0 0 20px rgba(255,255,255,0.2),   inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+.ch-info{ position: absolute; width: 180px; height: 180px; border-radius: 50%;
+ -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;   -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -o-transform-style: preserve-3d; -ms-transform-style: preserve-3d; transform-style: preserve-3d;
+}
+.ch-info > div { display: block; position: absolute; width: 100%; height: 100%; border-radius: 50%; background-position: center center;
+ -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -o-backface-visibility: hidden; -ms-backface-visibility: hidden; backface-visibility: hidden;}
+.ch-info .ch-info-back { -webkit-transform: rotate3d(0,1,0,180deg); -moz-transform: rotate3d(0,1,0,180deg); -o-transform: rotate3d(0,1,0,180deg); -ms-transform: rotate3d(0,1,0,180deg); transform: rotate3d(0,1,0,180deg);  background: #000;}
+.ch-img-1 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/10-1.jpg);}
+.ch-img-2 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/11-1.jpg);}
+.ch-img-3 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/12.jpg);}
+.ch-info h3 { color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 14px; margin: 0 15px; padding: 40px 0 0 0; height: 90px; font-family: 'Open Sans', Arial, sans-serif; text-shadow:   0 0 1px #fff,   0 1px 2px rgba(0,0,0,0.3);}
+.ch-info p { color: #fff; padding: 10px 5px; font-style: italic; margin: 0 30px; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.5);}
+.ch-info p a { display: block; color: #fff; color: rgba(255,255,255,0.7); font-style: normal; font-weight: 700; text-transform: uppercase; font-size: 9px; letter-spacing: 1px; padding-top: 4px; font-family: 'Open Sans', Arial, sans-serif;}
+.ch-info p a:hover { color: #fff222; color: rgba(255,242,34, 0.8);}
+.ch-item:hover .ch-info-wrap { box-shadow:   0 0 0 0 rgba(255,255,255,0.8),   inset 0 0 3px rgba(115,114, 23, 0.8);}
+.ch-item:hover .ch-info { -webkit-transform: rotate3d(0,1,0,-180deg); -moz-transform: rotate3d(0,1,0,-180deg); -o-transform: rotate3d(0,1,0,-180deg); -ms-transform: rotate3d(0,1,0,-180deg); transform: rotate3d(0,1,0,-180deg);}
+  /* End Demo 4 */
+  /* Begin Demo 5 */
+.ch-item { width: 100%; height: 100%; border-radius: 50%; position: relative; box-shadow: 0 1px 2px rgba(0,0,0,0.1); cursor: default;}
+.ch-info-wrap, .ch-info{ position: absolute; width: 180px; height: 180px; border-radius: 50%;}
+.ch-info-wrap { top: 20px; left: 20px; background: #f9f9f9 url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/bg.jpg); box-shadow:   0 0 0 20px rgba(255,255,255,0.2),   inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+.ch-info > div { display: block; position: absolute; width: 100%; height: 100%; border-radius: 50%; background-position: center center;  -webkit-backface-visibility: hidden; /*Just for webkit to have a smooth font*/}
+.ch-info .ch-info-front { -webkit-transition: all 0.6s ease-in-out; -moz-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; transition: all 0.6s ease-in-out;}
+.ch-info .ch-info-back { opacity: 0;
+ background: #223e87; pointer-events: none;  -webkit-transform: scale(1.5); -moz-transform: scale(1.5); -o-transform: scale(1.5); -ms-transform: scale(1.5); transform: scale(1.5);  -webkit-transition: all 0.4s ease-in-out 0.2s; -moz-transition: all 0.4s ease-in-out 0.2s; -o-transition: all 0.4s ease-in-out 0.2s; -ms-transition: all 0.4s ease-in-out 0.2s; transition: all 0.4s ease-in-out 0.2s;}
+.ch-img-1 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/13.jpg);}
+.ch-img-2 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/14.jpg);}
+.ch-img-3 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/15.jpg);}
+.ch-info h3 { color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 18px; margin: 0 15px; padding: 40px 0 0 0; height: 80px; font-family: 'Open Sans', Arial, sans-serif; text-shadow:   0 0 1px #fff,   0 1px 2px rgba(0,0,0,0.3);}
+.ch-info p { color: #fff; padding: 10px 5px 0; font-style: italic; margin: 0 30px; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.5);}
+.ch-info p a { display: block; color: #e7615e; font-style: normal; font-weight: 700; text-transform: uppercase; font-size: 9px; letter-spacing: 1px; padding-top: 4px; font-family: 'Open Sans', Arial, sans-serif;}
+.ch-info p a:hover { color: #fff;}
+.ch-item:hover .ch-info-front { -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); -ms-transform: scale(0); transform: scale(0);  opacity: 0;} 
+.ch-item:hover .ch-info-back { -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); -ms-transform: scale(1); transform: scale(1);  opacity: 1; pointer-events: auto;}
+  /* End Demo 5 */
+  /* Begin Demo 6 */
+.ch-item { width: 100%; height: 100%; border-radius: 50%; position: relative; box-shadow: 0 1px 2px rgba(0,0,0,0.1); cursor: default;}
+.ch-info-wrap, .ch-info{ position: absolute; width: 180px; height: 180px; border-radius: 50%;  -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;  -webkit-perspective: 800px; -moz-perspective: 800px; -o-perspective: 800px; -ms-perspective: 800px; perspective: 800px;}
+.ch-info-wrap { top: 20px; left: 20px; background: #f9f9f9 url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/bg.jpg); box-shadow:   0 0 0 20px rgba(255,255,255,0.2),   inset 0 0 3px rgba(115,114, 23, 0.8); }
+.ch-info { -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -o-transform-style: preserve-3d; -ms-transform-style: preserve-3d; transform-style: preserve-3d;}
+.ch-info > div { display: block; position: absolute; width: 100%; height: 100%; border-radius: 50%; background-position: center center; -webkit-transition: all 0.6s ease-in-out; -moz-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; transition: all 0.6s ease-in-out;}
+.ch-info .ch-info-front { -webkit-transform-origin: 50% 100%; -moz-transform-origin: 50% 100%; -o-transform-origin: 50% 100%; -ms-transform-origin: 50% 100%; transform-origin: 50% 100%;  z-index: 100; box-shadow:   inset 2px 1px 4px rgba(0,0,0,0.1);}
+.ch-info .ch-info-back { background: rgba(230,132,107,0);}
+.ch-img-1 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/16.jpg);}
+.ch-img-2 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/17.jpg);}
+.ch-img-3 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/18.jpg);}
+.ch-info h3 { color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 14px; margin: 0 25px; padding: 40px 0 0 0; height: 90px; font-family: 'Open Sans', Arial, sans-serif; text-shadow:   0 0 1px #fff,   0 1px 2px rgba(0,0,0,0.3);}
+.ch-info p { color: #fff; padding: 10px 5px; font-style: italic; margin: 0 30px; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.5);}
+.ch-info p a { display: block; color: #fff; color: rgba(255,255,255,0.7); font-style: normal; font-weight: 700; text-transform: uppercase; font-size: 9px; letter-spacing: 1px; padding-top: 4px; font-family: 'Open Sans', Arial, sans-serif;}
+.ch-info p a:hover { color: #fff222; color: rgba(255,242,34, 0.8);}
+.ch-item:hover .ch-info-front { -webkit-transform: rotate3d(1,0,0,-180deg); -moz-transform: rotate3d(1,0,0,-180deg); -o-transform: rotate3d(1,0,0,-180deg); -ms-transform: rotate3d(1,0,0,-180deg); transform: rotate3d(1,0,0,-180deg);  box-shadow:   inset 0 0 5px rgba(255,255,255,0.2),   inset 0 0 3px rgba(0,0,0,0.3);}
+.ch-item:hover .ch-info-back { background: rgba(230,132,107,0.6);}
+  /* End Demo 6 */
+  /* Begin Demo 7 */
+.ch-item { width: 100%; height: 100%; border-radius: 50%; position: relative; cursor: default; -webkit-perspective: 900px; -moz-perspective: 900px; -o-perspective: 900px; -ms-perspective: 900px; perspective: 900px;}.ch-info{ position: absolute; width: 100%; height: 100%; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -o-transform-style: preserve-3d; -ms-transform-style: preserve-3d; transform-style: preserve-3d;}.ch-info > div { display: block; position: absolute; width: 100%; height: 100%; border-radius: 50%; background-position: center center; -webkit-transition: all 0.4s linear; -moz-transition: all 0.4s linear; -o-transition: all 0.4s linear; -ms-transition: all 0.4s linear; transition: all 0.4s linear; -webkit-transform-origin: 50% 0%; -moz-transform-origin: 50% 0%; -o-transform-origin: 50% 0%; -ms-transform-origin: 50% 0%; transform-origin: 50% 0%;}
+.ch-info .ch-info-front { box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);}
+.ch-info .ch-info-back { -webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg); -moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg); -o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg); -ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg); transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg); background: #000; opacity: 0;}
+.ch-img-1 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/19.jpg);}
+.ch-img-2 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/20.jpg);}
+.ch-img-3 {  background-image: url(http://sandboxyh.yellowhammeragency.com/wp-content/uploads/2017/05/21.jpg);}
+.ch-info h3 { color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 24px; margin: 0 15px; padding: 60px 0 0 0; height: 110px; font-family: 'Open Sans', Arial, sans-serif; text-shadow:   0 0 1px #fff,   0 1px 2px rgba(0,0,0,0.3);}
+.ch-info p { color: #fff; padding: 10px 5px; font-style: italic; margin: 0 30px; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.5);}
+.ch-info p a { display: block; color: #fff; color: rgba(255,255,255,0.7); font-style: normal; font-weight: 700; text-transform: uppercase; font-size: 9px; letter-spacing: 1px; padding-top: 4px; font-family: 'Open Sans', Arial, sans-serif;}
+.ch-info p a:hover { color: #fff222; color: rgba(255,242,34, 0.8);}
+.ch-item:hover .ch-info-front { -webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg); -moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg); -o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg); -ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg); transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg); opacity: 0;}
+.ch-item:hover .ch-info-back { -webkit-transform: rotate3d(1,0,0,0deg); -moz-transform: rotate3d(1,0,0,0deg); -o-transform: rotate3d(1,0,0,0deg); -ms-transform: rotate3d(1,0,0,0deg); transform: rotate3d(1,0,0,0deg); opacity: 1;}
+/* End Demo 7 */
+/* End Codrops rounded hover */
